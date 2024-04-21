@@ -6,7 +6,69 @@
   "headerURL" : "https://f000.backblazeb2.com/file/rileytestut/ExampleSource/OceanHeader.png",
   "website" : "https://github.com/XITRIX/iTorrent",
   "tintColor" : "#FF223F",
-  "featuredApps" : [],
-  "apps" : [],
+  "featuredApps" : [
+    "ru.nonamedude.iTorrent"
+  ],
+  "apps" : [
+    {
+      "name" : "iTorrent",
+      "bundleIdentifier" : "ru.nonamedude.iTorrent",
+      "developerName" : "Vinogradov Daniil/XITRIX",
+      "subtitle" : "iTorrent - iOS Torrent client App",
+      "localizedDescription" : "It is an ordinary torrent client for iOS with Files app support.",
+      "iconURL" : "https://user-images.githubusercontent.com/9553519/80646366-3d271680-8a75-11ea-8b60-9c5edd4ffd60.png",
+      "tintColor" : "#FF223F",
+      "category" : "utilities",
+      "screenshots" : [
+        "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/iphone1.PNG",
+        "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/iphone2.PNG",
+        "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/iphone3.PNG",
+        {
+          "imageURL" : "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/iphone4.PNG",
+          "width" : 2796,
+          "height" : 1290
+        },
+        {
+          "imageURL" : "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/iphone5.PNG",
+          "width" : 2796,
+          "height" : 1290
+        },
+        {
+          "imageURL" : "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/ipad1.PNG",
+          "width" : 1668,
+          "height" : 2224
+        },
+        {
+          "imageURL" : "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/ipad2.PNG",
+          "width" : 1668,
+          "height" : 2224
+        }
+      ],
+      "versions" : [
+        {
+          "version" : "1.9",
+          "date" : "2024-01-25T16:52:00-08:00",
+          "size" : 62100000,
+          "downloadURL" : "https://raw.githubusercontent.com/Mla-den/iTorrent-ADP/master/iTorrent.ipa",
+          "localizedDescription" : "LibTorrent library v1.2.19 used for this build",
+          "minOSVersion" : "9.3"
+        }
+      ],
+      "appPermissions" : {
+        "entitlements" : [
+          "com.apple.security.application-groups",
+          "com.apple.developer.siri",
+          "group.itorrent.life-activity",
+          "com.apple.token"
+        ],
+        "privacy" : {
+          "NSUserTrackingUsageDescription" : "Support developer, allow personalized ads.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription" : "This permission is ONLY needed for the application to work and download torrent files in the background, iTorrent does NOT process the received geolocation data in any way",
+          "NSLocationWhenInUseUsageDescription" : "This permission is ONLY needed for the application to work and download torrent files in the background, iTorrent does NOT process the received geolocation data in any way",
+          "NSPhotoLibraryAddUsageDescription" : "Allow, if you want to be able to save files to Photos app"
+        }
+      }
+    }
+  ],
   "news" : []
 }
